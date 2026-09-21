@@ -1,0 +1,77 @@
+{
+    "imagesBaseUrl": "https://raw.githubusercontent.com/darianebogina/e-mail/main/images/",
+    "cards": [
+        {
+            "image": "https://nft.ru/_next/image?url=https%3A%2F%2Fnft.ru%2Fmedia%2Fcache%2F54%2Fb3%2F54b3a37b3bd7c011c02d16cd35238484.png&w=1920&q=75",
+            "tag": "Новость",
+            "tagIcon": "news.png",
+            "tagIconWidth": 53,
+            "tagLink": "https://nft.ru/news",
+            "title": "Топ 10 популярных российских современных художников представляют своё видение будущего через 7 лет",
+            "description": [
+                "Текст анонса в 2 строки",
+                "Текст анонса в 2 строки"
+            ],
+            "likes": 127,
+            "views": 587,
+            "comments": 14
+        },
+        {
+            "image": "https://nft.ru/_next/image?url=https%3A%2F%2Fnft.ru%2Fmedia%2Fcache%2F54%2Fb3%2F54b3a37b3bd7c011c02d16cd35238484.png&w=1920&q=75",
+            "tag": "Статья",
+            "tagIcon": "brief.png",
+            "tagIconWidth": 44,
+            "tagLink": "https://nft.ru/articles",
+            "title": "«Операционные проблемы Worldcoin огромны» — Сэм Альтман",
+            "description": [
+                "Текст анонса в 1 строку"
+            ],
+            "likes": 127,
+            "views": 587,
+            "comments": 14
+        },
+        {
+            "image": "https://nft.ru/_next/image?url=https%3A%2F%2Fnft.ru%2Fmedia%2Fcache%2F54%2Fb3%2F54b3a37b3bd7c011c02d16cd35238484.png&w=1920&q=75",
+            "tag": "Новость",
+            "tagIcon": "news.png",
+            "tagIconWidth": 53,
+            "tagLink": "https://nft.ru/news",
+            "title": "Основатель Multicoin Capital сравнил развитие NFT с эволюцией веб-страниц Интернета",
+            "description": [
+                "Текст анонса в 1 строку"
+            ],
+            "likes": 127,
+            "views": 587,
+            "comments": 14
+        },
+        {
+            "image": "https://nft.ru/_next/image?url=https%3A%2F%2Fnft.ru%2Fmedia%2Fcache%2F54%2Fb3%2F54b3a37b3bd7c011c02d16cd35238484.png&w=1920&q=75",
+            "tag": "Статья",
+            "tagIcon": "brief.png",
+            "tagIconWidth": 44,
+            "tagLink": "https://nft.ru/articles",
+            "title": "В рекламе фильма спрятали 5500 NFT от Леброна Джеймса",
+            "description": [
+                "Текст анонса в 1 строку"
+            ],
+            "likes": 127,
+            "views": 587,
+            "comments": 14
+        },
+        {
+            "image": "https://nft.ru/_next/image?url=https%3A%2F%2Fnft.ru%2Fmedia%2Fcache%2F54%2Fb3%2F54b3a37b3bd7c011c02d16cd35238484.png&w=1920&q=75",
+            "tag": "Новость",
+            "tagIcon": "news.png",
+            "tagIconWidth": 53,
+            "tagLink": "https://nft.ru/news",
+            "title": "Глава Coinbase назвал самую важную криптовалюту",
+            "description": [
+                "Текст анонса в 2 строки",
+                "Текст анонса в 2 строки"
+            ],
+            "likes": 127,
+            "views": 587,
+            "comments": 14
+        }
+    ]
+}

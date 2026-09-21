@@ -1,0 +1,126 @@
+<mjml>
+    <mj-head>
+        <mj-title>Дайджест июня — NFT.RU</mj-title>
+        <mj-preview>Пять лучших пользовательских материалов за месяц</mj-preview>
+
+        <mj-attributes>
+            <mj-all font-family="Arial, Helvetica, sans-serif"/>
+            <mj-text color="#ffffff" font-size="14px" line-height="1.5" padding="0"/>
+            <mj-section background-color="#000000" padding="0"/>
+        </mj-attributes>
+
+        <mj-raw>
+            <meta name="color-scheme" content="dark light">
+            <meta name="supported-color-schemes" content="dark light">
+        </mj-raw>
+    </mj-head>
+
+    <mj-body background-color="#000000" width="600px">
+        <mj-section padding="20px 0 0 0"></mj-section>
+
+        <mj-section border-radius="16px" background-color="#151515" padding="20px" border="1px solid #222222">
+            <!-- ХЕДЕР -->
+            <mj-group>
+                <mj-column width="50%" vertical-align="middle">
+                    <mj-image src="{{imagesBaseUrl}}logo.png" alt="NFT.RU"
+                              width="150px" align="left" href="https://nft.ru/"
+                              target="_blank" padding="0"/>
+                </mj-column>
+
+                <mj-column width="50%" vertical-align="middle">
+                    <mj-text align="right">
+                        <a href="https://t.me/nftru" target="_blank" style="text-decoration:none;">
+                            <img src="{{imagesBaseUrl}}tg.png" width="24"
+                                 alt="Telegram" style="border:0;text-decoration:none;"/>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://vk.com" target="_blank" style="text-decoration:none;">
+                            <img src="{{imagesBaseUrl}}vk.png" width="24"
+                                 alt="VK" style="border:0;text-decoration:none;"/>
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section padding="8px 0"></mj-section>
+
+        <!-- КАРТОЧКИ -->
+        <mj-wrapper border-radius="16px" background-color="#151515" padding="20px 20px" border="1px solid #222222">
+            <mj-section padding="0" background-color="#151515">
+                <mj-column>
+                    <mj-text font-size="28px" font-weight="bold" color="#ffffff">Дайджест июня</mj-text>
+                    <mj-spacer height="8px"/>
+                    <mj-text color="#999999">Пять лучших пользовательских материалов за месяц</mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="8px 0" background-color="#151515"></mj-section>
+
+            {{#each cards}}
+                <!-- КАРТОЧКА {{@index}} -->
+                <mj-section background-url="{{image}}" background-size="cover" background-position="center"
+                            background-repeat="no-repeat" border-radius="12px" padding="0">
+                    <mj-column background-color="rgba(0,0,0,0.80)" padding="20px">
+                        <mj-text padding="0" align="left">
+                            <a href="{{tagLink}}" target="_blank" style="text-decoration:none;">
+                                <img src="{{../imagesBaseUrl}}{{tagIcon}}" width="{{tagIconWidth}}" alt="{{tag}}"
+                                     style="width:{{tagIconWidth}}px;height:auto;border:0;display:block;"/>
+                            </a>
+                        </mj-text>
+                        <mj-spacer height="8px"/>
+                        <mj-text color="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="22px"
+                                 font-weight="700" line-height="26px" padding="0">
+                            <a href="https://nft.ru/article/multfilm-fraggle-rock-sozdast-nft-kartochki-s-geroiami-shou"
+                               target="_blank" style="color:#FFFFFF;text-decoration:none;">{{title}}</a>
+                        </mj-text>
+                        <mj-spacer height="8px"/>
+                        <mj-text color="#737373" font-family="Helvetica, Arial, sans-serif" font-size="14px"
+                                 font-weight="400" line-height="18px" padding="0">{{#each description}}{{this}}{{#unless
+                                @last}}<br/>{{/unless}}{{/each}}</mj-text>
+                        <mj-spacer height="12px"/>
+                        <mj-text padding="0">
+                            <img src="{{../imagesBaseUrl}}like.png" width="16"
+                                 alt="Лайки"
+                                 style="vertical-align:middle;border:0;"/>
+                            <span style="color:#00E676;font-family:Helvetica,Arial,sans-serif;font-size:14px;vertical-align:middle;">{{likes}}</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="{{../imagesBaseUrl}}views.png" width="16"
+                                 alt="Просмотры"
+                                 style="vertical-align:middle;border:0;"/>
+                            <span style="color:#737373;font-family:Helvetica,Arial,sans-serif;font-size:14px;vertical-align:middle;">{{views}}</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="{{../imagesBaseUrl}}comments.png" width="16"
+                                 alt="Комментарии" style="vertical-align:middle;border:0;"/>
+                            <span style="color:#737373;font-family:Helvetica,Arial,sans-serif;font-size:14px;vertical-align:middle;">{{comments}}</span>
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+
+                {{#unless @last}}
+                    <mj-section padding="4px 0" background-color="#151515"></mj-section>
+                {{/unless}}
+            {{/each}}
+        </mj-wrapper>
+
+        <mj-section padding="8px 0"></mj-section>
+
+        <!-- ФУТЕР -->
+        <mj-section
+                background-color="#151515"
+                border="1px solid #222222"
+                border-radius="16px"
+                padding="20px 24px">
+            <mj-column>
+                <mj-text color="#ffffff" font-size="14px" line-height="22px">
+                    Вы получили это письмо, потому что вы зарегистрированны на сайте <strong>nft.ru</strong><br/>
+                    Вы всегда можете <a href="https://nft.ru/unsubscribe" target="_blank"
+                                        style="color:#4A90E2;text-decoration:underline;">отписаться</a> от получения
+                    рассылок.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 0 0 0"></mj-section>
+    </mj-body>
+</mjml>

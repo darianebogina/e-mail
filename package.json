@@ -1,0 +1,29 @@
+{
+  "name": "e-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "node send.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darianebogina/e-mail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/darianebogina/e-mail/issues"
+  },
+  "homepage": "https://github.com/darianebogina/e-mail#readme",
+  "devDependencies": {
+    "dotenv": "^17.4.2",
+    "handlebars": "^4.7.9",
+    "mjml": "^5.4.1",
+    "nodemailer": "^10.0.10"
+  }
+}
